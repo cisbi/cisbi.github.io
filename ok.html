@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script language="JavaScript">
+  function processUser()
+  {
+    var parameters = location.search.split("?");
+
+    temp = parameters[1].split("nome=");
+    var val = unescape(temp[1]);
+    document.getElementById("greeting").innerHTML = "Ciao "+val+"!";
+
+  }
+</script>
+  </head>
+  <body onload="processUser()">
+    <h1 id="greeting"></h1>
+  </body>
+</html>
