@@ -1,0 +1,30 @@
+.foto_desc {
+  padding-left: 2em
+}
+
+table:hover{
+  background-color: green;
+}
+
+body {
+  background-color: #dedef0;
+}
+
+h1, h3 {
+  color: #45969b;
+}
+
+hr {
+  border-color: grey;
+  border-style:dotted none none;
+  border-width: 10px;
+  width: 15%;
+}
+
+.foto{
+  height: 100px;
+}
+
+.circular{
+  border-radius: 100%;
+}
